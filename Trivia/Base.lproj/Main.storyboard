@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DME-Bc-Eeo">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trivia View Controller-->
+        <scene sceneID="gWu-xr-ldc">
+            <objects>
+                <viewController id="DME-Bc-Eeo" customClass="TriviaViewController" customModule="Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Rh-Zp-VWe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question: 1/3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZo-QO-Ee0">
+                                <rect key="frame" x="107" y="138" width="179" height="34.666666666666657"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entertainment: Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ore-mo-INJ">
+                                <rect key="frame" x="95.666666666666686" y="182.66666666666666" width="202" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What was Kendrick Lamar's previous stage name?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84Y-ip-BZl">
+                                <rect key="frame" x="11.666666666666657" y="221.66666666666663" width="370" height="280"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="04e-dp-YgU"/>
+                                    <constraint firstAttribute="width" constant="370" id="gPP-S7-caV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qn5-br-t4u">
+                                <rect key="frame" x="46.666666666666657" y="526.66666666666663" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="5VE-mR-12v"/>
+                                    <constraint firstAttribute="height" constant="50" id="sB5-H0-emZ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="K.Dot">
+                                    <backgroundConfiguration key="background" cornerRadius="8">
+                                        <color key="backgroundColor" red="0.3529411764705882" green="0.66274509803921566" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerButtonTapped:" destination="DME-Bc-Eeo" eventType="touchUpInside" id="ikY-gV-Pc7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5w-np-WyF">
+                                <rect key="frame" x="46.666666666666657" y="596.66666666666663" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="223-kD-tsd"/>
+                                    <constraint firstAttribute="width" constant="300" id="OnJ-fK-dhn"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ken Birdworth">
+                                    <backgroundConfiguration key="background" cornerRadius="8">
+                                        <color key="backgroundColor" red="0.3529411764705882" green="0.66274509803921566" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerButtonTapped:" destination="DME-Bc-Eeo" eventType="touchUpInside" id="aLM-S9-y9g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hQ-x3-Qpz">
+                                <rect key="frame" x="46.666666666666657" y="666.66666666666663" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Gb5-JO-shF"/>
+                                    <constraint firstAttribute="width" constant="300" id="Wwy-XN-FDd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="B.Dot">
+                                    <backgroundConfiguration key="background" cornerRadius="8">
+                                        <color key="backgroundColor" red="0.3529411764705882" green="0.66274509803921566" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerButtonTapped:" destination="DME-Bc-Eeo" eventType="touchUpInside" id="vgb-fR-ofY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nv-o2-t5t">
+                                <rect key="frame" x="46.666666666666657" y="736.66666666666663" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="je6-kP-nYq"/>
+                                    <constraint firstAttribute="height" constant="50" id="k2i-H5-Qzm"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="MC Kenny">
+                                    <backgroundConfiguration key="background" cornerRadius="8">
+                                        <color key="backgroundColor" red="0.3529411764705882" green="0.66274509803921566" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerButtonTapped:" destination="DME-Bc-Eeo" eventType="touchUpInside" id="QbC-XG-7cP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GKa-QD-ygA"/>
+                        <color key="backgroundColor" red="0.72549019607843135" green="0.88627450980392153" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IZo-QO-Ee0" firstAttribute="centerX" secondItem="0Rh-Zp-VWe" secondAttribute="centerX" id="07v-qQ-bVD"/>
+                            <constraint firstItem="b5w-np-WyF" firstAttribute="top" secondItem="Qn5-br-t4u" secondAttribute="bottom" constant="20" id="49D-dD-7Hf"/>
+                            <constraint firstItem="1hQ-x3-Qpz" firstAttribute="centerX" secondItem="0Rh-Zp-VWe" secondAttribute="centerX" id="4SQ-L5-JVa"/>
+                            <constraint firstItem="b5w-np-WyF" firstAttribute="centerX" secondItem="0Rh-Zp-VWe" secondAttribute="centerX" id="GNg-Ps-6gl"/>
+                            <constraint firstItem="ore-mo-INJ" firstAttribute="top" secondItem="IZo-QO-Ee0" secondAttribute="bottom" constant="10" id="HGP-R0-WWk"/>
+                            <constraint firstItem="84Y-ip-BZl" firstAttribute="top" secondItem="ore-mo-INJ" secondAttribute="bottom" constant="15" id="Swn-OQ-UVV"/>
+                            <constraint firstItem="84Y-ip-BZl" firstAttribute="centerX" secondItem="0Rh-Zp-VWe" secondAttribute="centerX" id="cqW-ZY-DX9"/>
+                            <constraint firstItem="1nv-o2-t5t" firstAttribute="top" secondItem="1hQ-x3-Qpz" secondAttribute="bottom" constant="20" id="dUn-CU-e2m"/>
+                            <constraint firstItem="Qn5-br-t4u" firstAttribute="top" secondItem="84Y-ip-BZl" secondAttribute="bottom" constant="25" id="eZI-eg-qVi"/>
+                            <constraint firstItem="Qn5-br-t4u" firstAttribute="centerX" secondItem="0Rh-Zp-VWe" secondAttribute="centerX" id="fxV-TF-mUs"/>
+                            <constraint firstItem="1nv-o2-t5t" firstAttribute="centerX" secondItem="0Rh-Zp-VWe" secondAttribute="centerX" id="hDe-VM-ACL"/>
+                            <constraint firstItem="1hQ-x3-Qpz" firstAttribute="top" secondItem="b5w-np-WyF" secondAttribute="bottom" constant="20" id="kkG-t0-Tag"/>
+                            <constraint firstItem="ore-mo-INJ" firstAttribute="centerX" secondItem="0Rh-Zp-VWe" secondAttribute="centerX" id="rj1-qB-g6A"/>
+                            <constraint firstItem="IZo-QO-Ee0" firstAttribute="top" secondItem="GKa-QD-ygA" secondAttribute="top" constant="20" id="u2w-J7-JDb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerfourButton" destination="1nv-o2-t5t" id="Y5Y-9c-ySN"/>
+                        <outlet property="answeroneButton" destination="Qn5-br-t4u" id="8N6-U3-zXv"/>
+                        <outlet property="answerthreeButton" destination="1hQ-x3-Qpz" id="JbU-Fx-iWv"/>
+                        <outlet property="answertwoButton" destination="b5w-np-WyF" id="hVi-Bj-bHm"/>
+                        <outlet property="categoryLabel" destination="ore-mo-INJ" id="FgN-fi-5zp"/>
+                        <outlet property="questionLabel" destination="84Y-ip-BZl" id="OG2-f7-yMa"/>
+                        <outlet property="questionnumberLabel" destination="IZo-QO-Ee0" id="RTq-sg-7gu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GY6-Ah-gTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5.343511450381679" y="68.309859154929583"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
