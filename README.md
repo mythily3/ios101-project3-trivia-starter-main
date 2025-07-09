@@ -1,4 +1,4 @@
-# Project 4 - *Name of App Here*
+# Project 4 - Trivia App
 
 Submitted by: Mythily Kalra
 
@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 
 ## Notes
 
-It was challenging to fiture out the API calling and how everything worked, and at the end my HTML text decoder wasn't working so I had to add extra text for that. 
+It was challenging to fiture out the API calling and how everything worked, and at the end my HTML text decoder wasn't working so I had to add code text for that. 
 ## License
 
     Copyright [yyyy] [name of copyright owner]
