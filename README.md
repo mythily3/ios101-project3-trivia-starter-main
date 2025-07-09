@@ -1,51 +1,53 @@
-# Project 3 - Trivia Game
+# Project 4 - *Name of App Here*
 
 Submitted by: Mythily Kalra
 
 Trivia Game is an app that that displays a question and 4 choices. The users can answer the questions that pop up and receive their final score at the end. 
 
-Time spent: 3 hours spent in total
+Time spent: 6 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] User can view the current question and 4 different answers
-- [x] User can view the next question after tapping an answer
-- [x] User can answer at least 3 different questions
+- [x] User can view and answer at least 5 trivia questions.
+- [x] App retrieves question data from the Open Trivia Database API.
+- [x] Fetch a different set of questions if the user indicates they would like to reset the game.
+- [x] Users can see score after submitting all questions.
+- [x] True or False questions only have two options.
 
 
 The following **optional** features are implemented:
 
-- [x] User can use the vertical orientation of the app on any device. (Used constraints and alignment)
-- [x] User can track the question they are on and how many questions are left
-- [x] User can see how many questions they got correct after answering all questions
-- [x] User should be able to restart the game after they've finished answering all questions
+  
+- [ ] Allow the user to choose a specific category of questions.
+- [ ] Provide the user feedback on whether each question was correct before navigating to the next.
 
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
 <div>
-    <a href="https://www.loom.com/share/00fcfbffb9b84136803403dd20e01841">
+    <a href="https://www.loom.com/share/e02a75b8220a44a0a4b6d98509e32353">
     </a>
-    <a href="https://www.loom.com/share/00fcfbffb9b84136803403dd20e01841">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/00fcfbffb9b84136803403dd20e01841-0b828b746d444670-full-play.gif">
+    <a href="https://www.loom.com/share/e02a75b8220a44a0a4b6d98509e32353">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e02a75b8220a44a0a4b6d98509e32353-4c133f2c8df9f14b-full-play.gif">
     </a>
   </div>
+  
+  Link: https://www.loom.com/share/e02a75b8220a44a0a4b6d98509e32353?sid=7eef56d6-de54-4bea-8159-75842605ceca
+  
+
+
 
 ## Notes
 
-Describe any challenges encountered while building the app. One challenge was figuring out how to link all the buttons to one IB Outlet, and also figure out the backend of this project in general. 
-
+It was challenging to fiture out the API calling and how everything worked, and at the end my HTML text decoder wasn't working so I had to add extra text for that. 
 ## License
 
-    Copyright 2025] Mythily Kalra
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
