@@ -2,11 +2,9 @@
 
 Submitted by: Mythily Kalra
 
-Trivia Game is an app that that displays a question and 4 choices. The users can answer the questions that pop up and receive their final score at the end. 
+Trivia Game is an app that that displays a question and 4 multiple choice answers or 2 True/False answers from the Open Trivia Database API. The users can answer the questions that pop up and receive their final score at the end. 
 
-Time spent: 6 hours spent in total
-
-## Required Features
+Time spent: 7 hours spent in total
 
 The following **required** functionality is completed:
 
@@ -16,16 +14,6 @@ The following **required** functionality is completed:
 - [x] Users can see score after submitting all questions.
 - [x] True or False questions only have two options.
 
-
-The following **optional** features are implemented:
-
-  
-- [ ] Allow the user to choose a specific category of questions.
-- [ ] Provide the user feedback on whether each question was correct before navigating to the next.
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -41,13 +29,9 @@ The following **additional** features are implemented:
   
 
 
-
-## Notes
-
-It was challenging to fiture out the API calling and how everything worked, and at the end my HTML text decoder wasn't working so I had to add code text for that. 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Mythily Kalra]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
